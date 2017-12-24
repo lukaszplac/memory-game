@@ -1,5 +1,6 @@
 
 //Ten sam skrypt tylko ze z kometarzami
+//Tak zeby sie pozniej nie pogubic co i jak.
 
 const $playButton = $('.play');
 const $fourByFourButton = $('.options1');
@@ -253,12 +254,3 @@ function nodeClick(){
     let nodeIndex = clickedNode.attr("id");
     game.addNodeToPairAndCheck(game.tilesMapArray[nodeIndex], $(clickedNode));
 }
-
-
-
-
-
-
-
-
-
